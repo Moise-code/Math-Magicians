@@ -1,4 +1,4 @@
-<a name="readme-top">Math-magicians</a>
+<a name="readme-top">math-magicians</a>
 
 <!--
 HOW TO USE:
@@ -60,9 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math Magicians] <a name="about-project"></a>
+# 📖 [math magicians] <a name="about-project"></a>
 
-**[Math Magician]** is a is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. 
+**[math magicians]** is a is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -107,7 +107,7 @@ you must have node installed in your computer
 
 Clone this repository to your desired folder by using this command:
 
-git clone https://github.com/Moise-code/Math-Magicians.git
+git clone https://github.com/Moise-code/math-magicians.git
 
 ### Install
 
@@ -140,7 +140,7 @@ to test the project run:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Moise-code/Math-Magicians/issues).
+Feel free to check the [issues page](https://github.com/Moise-code/math-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

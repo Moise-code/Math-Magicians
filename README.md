@@ -121,6 +121,10 @@ To run the project, execute the following command:
 
 **npm start**
 
+## Run tests
+
+to test the project run:
+**npm test**
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Moise-code**

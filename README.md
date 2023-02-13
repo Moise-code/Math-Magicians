@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<a name="readme-top">Math-magicians</a>
 
 <!--
 HOW TO USE:
@@ -25,14 +25,14 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
+<!-- <div align="center"> -->
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
+  <!-- <br/> -->
 
-  <h3><b>Microverse README Template</b></h3>
+  <!-- <h3><b>Microverse README Template</b></h3> -->
 
-</div>
+<!-- </div> -->
 
 <!-- TABLE OF CONTENTS -->
 
@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Math Magicians] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[Math Magician]** is a is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -79,19 +79,6 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 

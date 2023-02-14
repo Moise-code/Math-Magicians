@@ -1,60 +1,5 @@
 .App {
-  border: 1px solid #ccc;
-  /* border-radius: 5px; */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-input{
-  color: white;
-  font-weight: bold;
-  background-color: #858694;
-  border:none;
-  font-size: 3rem;
-  width: 98.9%;
-  text-align: right;
-  padding: 0 6px 0px 0px;
-
-}
-.calcu{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 100%;
-  }
-
-.operator {
-  color: #337cac;
-}
-
-.all-clear {
-  background-color: #f0595f;
-  border-color: #b0353a;
-  color: #fff;
-}
-
-.all-clear:hover {
-  background-color: #f17377;
-}
-
-.equal-sign {
-  background-color: #2e86c0;
-  border-color: #337cac;
-  color: #fff;
-}
-
-.equal-sign:hover {
-  background-color: #4e9ed4;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  text-align: center;
 }
 
 .App-header {
@@ -68,16 +13,3 @@ input{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}

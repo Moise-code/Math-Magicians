@@ -1,15 +1,43 @@
 button {
   height: 60px;
-  background-color: #fff;
+  background-color: #E0E0E0;
   border: 1px solid #c4c4c4;
-  font-size: 2rem;
-  color: #333;
-  background-image: linear-gradient(to bottom,transparent,transparent 50%,rgba(0,0,0,.04));
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
-  text-shadow: 0 1px rgba(255,255,255,.4);
+  font-size: 1rem;
+  color: black;
 }
 
-button:hover {
-  background-color: #eaeaea;
+.zero{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
 }
 
+.operator {
+  background-color: #F5913E;
+}
+.calcu{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+.calculator-screen{
+  width: 97.5%;
+  font-size: 1.5rem;
+  height: 50px;
+  border: none;
+  background-color: #858694;
+  color: #fff;
+  text-align: right;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.calculator-keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: .1px;
+  background-color: #D3D3D3;
+  padding: 1px;
+}

@@ -7,7 +7,7 @@ import Calculator from './components/Calculator';
 function App() {
   return (
     <div className="App">
-      <input type="text" placeholder={0} />
+      <input type="text" value={0} />
       <div className="calcu">
         <Calculator class="all-clear" value="A/C" />
         <Calculator value="+/-" />

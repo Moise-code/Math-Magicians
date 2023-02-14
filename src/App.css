@@ -1,28 +1,33 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  border: 1px solid #ccc;
+  /* border-radius: 5px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 input{
-  width: 40%;
-  margin: 1rem auto 0rem auto;
-  padding: 1rem;
-  text-align: right;
+  color: white;
+  font-weight: bold;
   background-color: #858694;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border: none;
-}
-input{
-  color: white;
-  font-weight: bold;
   border:none;
+  font-size: 3rem;
+  width: 98.9%;
+  text-align: right;
+  padding: 0 6px 0px 0px;
+
 }
+.calcu{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  }
+
 .operator {
   color: #337cac;
 }

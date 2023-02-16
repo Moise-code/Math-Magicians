@@ -22,7 +22,6 @@ const Calculator = () => {
       <div className="calculator-screen">
 
         { total }
-        { ' ' }
         { operation }
         { next }
       </div>

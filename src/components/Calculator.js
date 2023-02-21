@@ -1,6 +1,6 @@
 /* eslint-disable import/extensions */
 import React, { useState } from 'react';
-import calculate from '../Logic/calculation';
+import calculate from '../Logic/calculate';
 
 function Calculator() {
   const [calculation, setCalculation] = useState({

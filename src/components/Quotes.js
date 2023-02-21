@@ -1,5 +1,3 @@
-import '../App.css';
-
 const Quote = () => (
   <div className="quote flex">
     <h2 className="flex">

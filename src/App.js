@@ -1,3 +1,4 @@
+import './Style.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Navbar from './components/Nav';

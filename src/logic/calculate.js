@@ -3,20 +3,10 @@ import operate from './operate';
 function isNumber(item) {
   return !!item.match(/[0-9]+/);
 }
-
-/**
- * Given a button name and a calculator data object, return an updated
- * calculator data object.
- *
- * Calculator data object contains:
- *   total:s      the running total
- *   next:String       the next number to be operated on with the total
- *   operation:String  +, -, etc.
- */
-export default function calculate(obj, buttonName) {
+const calculate = (obj, buttonName) => {
   if (buttonName === 'AC') {
     return {
-      total: null,
+      total: 0,
       next: null,
       operation: null,
     };
@@ -130,4 +120,6 @@ export default function calculate(obj, buttonName) {
     next: null,
     operation: buttonName,
   };
-}
+};
+
+export default calculate;

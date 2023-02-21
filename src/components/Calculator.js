@@ -3,18 +3,18 @@ import '../calculator.css';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
-  const [calculation, setCalculation] = useState({
+  const [state, setState] = useState({
     total: null,
     next: null,
     operation: null,
   });
   const clickEvent = (e) => {
     const buttonName = e.currentTarget.textContent;
-    const newState = calculate(calculation, buttonName);
-    setCalculation(newState);
+    const newState = calculate(state, buttonName);
+    setState(newState);
   };
 
-  const { next, operation, total } = calculation;
+  const { next, operation, total } = state;
   return (
 
     <div className="calcu">
